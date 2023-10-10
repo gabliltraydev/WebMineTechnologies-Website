@@ -1,0 +1,50 @@
+body {
+  font-family: Gotham, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-logo a:hover {
+  background-color: #555;
+}
+
+

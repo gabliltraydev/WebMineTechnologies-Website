@@ -1,0 +1,116 @@
+body {
+  font-family: Gotham, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-logo a:hover {
+  background-color: #555;
+}
+
+
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Modifié pour afficher les boîtes côte à côte */
+/* ... Autres styles ... */
+
+.category {
+  margin-bottom: 40px;
+  float: left;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+.category-title {
+  margin-bottom: 10px;
+}
+
+
+.category .formule {
+  border: 3px solid #ccc;
+  padding: 30px; /* Ajustement de la taille de la boîte */
+  width: calc(25% + 170px); /* Ajustement de la largeur */
+  box-sizing: border-box;
+}
+/* ... Autres styles ... */
+
+/* Ajustement de la dernière boîte pour éviter la marge à droite */
+.formule:nth-child(3n) {
+  margin-right: 0;
+  
+}
+
+.formulesdiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.formule {
+  border: 3px solid #ccc;
+  padding: 30px;
+  width: calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+.formule-description {
+  margin-bottom: 10px;
+}
+
+.formule-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Ajout de la taille de la balise .formule-image */
+.formule-image {
+  height: 110px;
+}
