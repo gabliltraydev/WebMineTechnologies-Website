@@ -50,8 +50,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* Modifié pour afficher les boîtes côte à côte */
-/* ... Autres styles ... */
 
 .category {
   margin-bottom: 40px;
@@ -67,13 +65,11 @@ body {
 
 .category .formule {
   border: 3px solid #ccc;
-  padding: 30px; /* Ajustement de la taille de la boîte */
-  width: calc(25% + 170px); /* Ajustement de la largeur */
+  padding: 30px; 
+  width: calc(25% + 170px); 
   box-sizing: border-box;
 }
-/* ... Autres styles ... */
 
-/* Ajustement de la dernière boîte pour éviter la marge à droite */
 .formule:nth-child(3n) {
   margin-right: 0;
   
@@ -110,7 +106,7 @@ body {
   cursor: pointer;
 }
 
-/* Ajout de la taille de la balise .formule-image */
+
 .formule-image {
   height: 110px;
 }
