@@ -51,3 +51,16 @@ body {
 .presentation{
   
 }
+
+#first-sec{
+  background-color: #ED6F54;
+}
+
+.server-img{
+  width: 300px;
+  padding: 50px;
+}
+
+.server-infos{
+  font-size: 20px;
+}
